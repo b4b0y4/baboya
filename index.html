@@ -44,16 +44,14 @@
     />
     <div class="wrapper">
       <header>
-        <a href="#home" data-page="home" class="logo">
+        <a href="#home" class="logo">
           <h1>BABOYA</h1>
         </a>
 
         <div class="header-right">
           <nav>
-            <div class="link">
-              <a href="#work" data-page="work">work</a>
-              <a href="#about" data-page="about">about</a>
-            </div>
+            <a href="#work">work</a>
+            <a href="#about">about</a>
           </nav>
           <label for="menu-toggle" class="burger-menu">
             <div class="bar"></div>
@@ -281,9 +279,6 @@
             .map(cardHTML)
             .join("");
         }
-        document
-          .querySelectorAll("nav .link a")
-          .forEach((a) => a.classList.toggle("active", a.hash === `#${page}`));
         scrollTo(0, 0);
       };
       addEventListener(
