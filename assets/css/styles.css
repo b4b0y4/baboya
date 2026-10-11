@@ -476,9 +476,6 @@ footer {
     opacity: 0;
     pointer-events: none;
     transition: opacity var(--smooth);
-    & a {
-      color: var(--color-txt);
-    }
   }
 
   main {
