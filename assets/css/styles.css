@@ -163,7 +163,7 @@ main {
     var(--spacing-lg) max(var(--spacing-lg), env(safe-area-inset-left));
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .home-wrapper {
@@ -398,7 +398,7 @@ main {
 }
 
 .about-title {
-  margin: 0 auto 90px;
+  margin: var(--spacing-xl) auto 90px;
   & h2 {
     font-size: 1.1em;
     color: var(--color-sub);
