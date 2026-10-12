@@ -172,6 +172,7 @@ main {
   justify-content: space-between;
   gap: var(--spacing-xl);
   width: 100%;
+  margin: var(--spacing-xl) auto 0;
 }
 
 .home-left {
@@ -398,7 +399,7 @@ main {
 }
 
 .about-title {
-  margin: var(--spacing-xl) auto 90px;
+  margin: var(--spacing-xl) auto 100px;
   & h2 {
     font-size: 1.1em;
     color: var(--color-sub);
